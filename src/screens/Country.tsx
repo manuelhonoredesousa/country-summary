@@ -80,7 +80,7 @@ export function Country() {
     <VStack flex={1} bg="gray.400">
         <VStack bg="primary.100" pt={12} h={115} px={5} shadow={8} justifyContent="center">
         <HStack h={45} alignItems="center" justifyContent="space-between">
-          {myCountryL.borders ? (
+          {myCountryL.captal ? (
             <Button variant="outline" borderWidth={0} _pressed={{ background: "none", width:50 }} onPress={handleGoBack} >
             <Heading color="gray.400">◀ Voltar</Heading>
           </Button>
@@ -88,7 +88,7 @@ export function Country() {
         </HStack>
       </VStack>
 
-      {myCountryL.borders ? (
+      {myCountryL.captal ? (
       <VStack flex={1}>
         <ScrollView showsVerticalScrollIndicator={false} w="full" h="full">
           <VStack mx={4} px={4} pb={10}>

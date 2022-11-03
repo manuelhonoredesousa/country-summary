@@ -1,5 +1,5 @@
 import { useState, useEffect} from "react";
-import { VStack, Text, HStack, Button, Input, Heading, FlatList, Center} from "native-base";
+import { VStack, Text, HStack, Button, Input, Heading, FlatList, Center, Link} from "native-base";
 import { CountryTumb } from "../components/CountryTumb";
 import { useNavigation } from "@react-navigation/native";
 
@@ -133,8 +133,9 @@ export function Home() {
       </VStack>
  
       <VStack mt={15} px={3}>
-        <HStack>
+        <HStack justifyContent="space-between">
           <Text fontSize="md" color="gray.100">{txtSearch == "" ? "All countries" : "Searching for: " + txtSearch}</Text>
+          <Link href="https://linktr.ee/manueldesousa" _text={{ color: "primary.100", textDecoration:"none" }}>ℹ️ info</Link>
         </HStack>
 
         <VStack h="78%">
