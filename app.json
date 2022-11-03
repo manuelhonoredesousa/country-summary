@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "country-summary",
+    "slug": "country-summary",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "country.summary"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "abc95974-ea05-4ecf-9698-aa70ab2be8cc"
+      }
+    }
+  }
+}
