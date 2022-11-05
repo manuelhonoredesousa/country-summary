@@ -21,6 +21,5 @@ Caso queira testar podes clicar abaixo para baixar o APK (Android):
 <img src='https://i.postimg.cc/mrhBcR3Y/finding-a-Angola-Country.jpg' alt='finding-a-Angola-Country' width="220px"/>
 
 <img src='https://i.postimg.cc/W1wwDcp1/About-Angola.jpg' alt='About-Angola' width="220px"/>
-
 </div>
 
